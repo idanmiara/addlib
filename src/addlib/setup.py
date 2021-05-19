@@ -6,7 +6,7 @@ name = "addlib_py"
 
 ext_modules = Extension(
     name=name,
-    sources=["addlib.pyx"],
+    sources=["addlib_py.pyx"],
     language="c++",
     libraries=["addlib"],
     library_dirs=["."],
